@@ -1,0 +1,127 @@
+
+.fullscreen-title {
+    position: relative;
+    max-width: 357px;
+    color: #F44336;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.fullscreen__bg-title {
+    background-image: url(../img/title-projects.png);
+    width: 507px;
+    height: 116px;
+}
+
+.projects {
+    position: relative;
+    height: 541px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    transform: translateY(-10%);
+}
+
+.projects::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.projects__body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1700px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card-project {
+    position: relative;
+    width: 300px;
+    height: 422px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: 0.8s;
+    display: block;
+}
+
+.card-project:hover {
+    transform: translateY(-30px);
+}
+
+.project-sila {
+    background-image: url(../img/djsila.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-milov {
+    background-color: #E0BAB1;
+}
+
+.project-v {
+    background-color: #2D3341;
+}
+
+.project-h {
+    background-color: #364240;
+}
+
+.card-project:hover .card-project__blackout {
+    opacity: 1;
+}
+
+.card-project__blackout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(54, 66, 64, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.card-project__container-title {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.74);
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+}
+
+.card-project__title {
+    font-family: 'Cormorant';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    color: white;
+}
+
+.card-project__subtitle {
+    font-family: Oswald;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.38em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 1680px) {
+    .projects__body {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,235 @@
+.first-screen {
+    background-image: url(../img/djsila.jpg);
+    background-position: 50% -400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blackout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(54, 66, 64, 0.48);
+}
+
+.fullscreen__bg-title {
+    width: 456px;
+    height: 153px;
+    background-image: url(../img/title-project.svg);
+}
+
+.fullscreen-title {
+    color: white;
+}
+
+.small-title {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+}
+
+.text-about-project {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 73px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    max-width: 656px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.un-title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.38em;
+    color: rgba(0, 0, 0, 0.64);
+}
+
+.container-img-djsila {
+    display: flex;
+    padding-top: 251px;
+    padding-bottom: 180px;
+    flex-wrap: wrap;
+}
+
+.container-img-djsila__item {
+    width: 50%;
+}
+
+.container-img-djsila__item:first-child {
+    width: 100%;
+}
+
+.container-img-djsila__frist-img {
+    width: 300px;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/djsila1.jpg);
+    transform: translateY(-30%);
+    margin-left: 90px;
+}
+
+.container-img-djsila__photo2, .container-img-djsila__photo3 {
+    width: 392px;
+    height: 392px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.container-img-djsila__photo2 {
+    background-image: url(../img/djsila2.jpg);
+    background-position: right;
+}
+
+.container-img-djsila__photo3 {
+    background-image: url(../img/djsila3.jpg);
+    background-position: 90%;
+    transform: translateY(-30%);
+}
+
+.screenshots {
+    background-color: #362929;
+    padding-top: 90px;
+    padding-bottom: 45px;
+    margin-bottom: 100px;
+}
+
+.screenshot {
+    width: 950px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+
+.screenshot1 {
+    background-image: url(../img/screenshot1.svg);
+    height: 719px;
+}
+
+.screenshot2 {
+    background-image: url(../img/screenshot2.svg);
+    height: 966px;
+}
+
+.screenshot3 {
+    background-image: url(../img/screenshot3.svg);
+    height: 867px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.btn-view {
+    position: relative;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    color: rgba(244,67,54,0.64);
+    width: 155px;
+}
+
+.btn-view::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgba(244,67,54,0.64);
+    bottom: 0;
+    left: 0;
+    transition: 0.6s;
+}
+
+.btn-view:hover:after {
+    width: 185px;
+    left: -15px;
+}
+
+.card-project {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 362px;
+    margin: auto;
+    transform: translateY(-40%);
+}
+
+.card-project__title {
+    position: relative;
+    font-family: 'Cormorant';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-align: center;
+    color: rgba(244, 67, 54, 0.64);
+    margin: auto;
+    transition: 0.6s;
+}
+
+.card-project:hover .card-project__title {
+    color: rgba(244, 67, 54, 1);
+}
+
+.card-project__title::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgba(244, 67, 54, 0.64);
+    bottom: 2px;
+    left: 0;
+    transition: 0.6s;
+}
+
+.card-project:hover .card-project__title::after {
+    background-color: rgba(244, 67, 54, 1);
+}
+
+.card-project__container-bg {
+    position: relative;
+    overflow: hidden;
+    width: 362px;
+    height: 422px;
+    margin-top: 30px;
+}
+
+.card-project__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../img/milov.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+}
+
+.card-project:hover .card-project__bg {
+    transform: scale(1.1);
+}
+
+.footer-experience {
+    margin-top: 314px;
+    background-color: #F0EDED;
+}

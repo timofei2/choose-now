@@ -1,0 +1,50 @@
+.wrapper-fullscreen {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-title {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.bg-title {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-title {
+    position: relative;
+    font-family: 'Cormorant';
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Oswald';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+    display: block;
+    line-height: 38px;
+}
