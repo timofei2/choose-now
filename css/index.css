@@ -76,23 +76,7 @@
     transform: translateX(-50%);
     margin-left: 50%;
     color: rgba(244,67,54,0.64);
-    width: 62px;
-}
-
-.btn-experience::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 1px;
-    background-color: rgba(244,67,54,0.64);
-    bottom: 0;
-    left: 0;
-    transition: 0.6s;
-}
-
-.btn-experience:hover:after {
-    width: 92px;
-    left: -15px;
+    width: 143px;
 }
 
 .projects {
@@ -177,22 +161,6 @@
     color: rgba(244,67,54,0.64);
     width: 240px;
     margin-bottom: 100px;
-}
-
-.btn-more-projects::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 1px;
-    background-color: rgba(244,67,54,0.64);
-    bottom: 0;
-    left: 0;
-    transition: 0.6s;
-}
-
-.btn-more-projects:hover:after {
-    width: 270px;
-    left: -15px;
 }
 
 .btn-up {
