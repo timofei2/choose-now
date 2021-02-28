@@ -34,6 +34,22 @@
 .content-about {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-title {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+    color: #F44336;
 }
 
 .text-about {
@@ -45,8 +61,8 @@
     letter-spacing: 0.12em;
     text-align: center;
     max-width: 656px;
-    padding-top: 150px;
     color: #F44336;
+    margin: 0;
 }
 
 .card-project {
