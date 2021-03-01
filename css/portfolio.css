@@ -59,7 +59,9 @@
 }
 
 .project-milov {
-    background-color: #E0BAB1;
+    background-image: url(../img/milov.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .project-v {

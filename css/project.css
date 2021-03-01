@@ -1,8 +1,12 @@
-.first-screen {
+.first-screen-djsila {
     background-image: url(../img/djsila.jpg);
     background-position: 50% -400px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.first-screen-milov {
+    background-color: #1C678D;
 }
 
 .blackout {
@@ -12,6 +16,25 @@
     left: 0px;
     top: 0px;
     background: rgba(54, 66, 64, 0.48);
+}
+
+.photo-milov {
+    position: absolute;
+    width: 365px;
+    height: 549px;
+    background-image: url(../img/milov.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.blackout-photo {
+    width: 365px;
+    height: 549px;
+    background: rgba(14, 15, 15, 0.1);
 }
 
 .fullscreen__bg-title {
@@ -61,6 +84,64 @@
     color: rgba(0, 0, 0, 0.64);
 }
 
+.colors {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+.colors::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) translateY(-70%);
+    width: 329px;
+    height: 121px;
+    background-image: url(../img/colors.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.colors__item {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-family: 'Oswald';
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    margin-right: 40px;
+    line-height: 80px;
+    color: white;
+}
+
+.colors__item:nth-child(2n) {
+    color: black;
+}
+
+.colors__item:last-child {
+    margin-right: 0;
+}
+
+.colors__item-DCAD36 {
+    background-color: #DCAD36;
+}
+
+.colors__item-F1F1F1 {
+    background-color: #F1F1F1;
+}
+
+.colors__item-000000 {
+    background-color: #000000;
+}
+
 .container-img-djsila {
     display: flex;
     padding-top: 251px;
@@ -107,20 +188,43 @@
 }
 
 .screenshots {
-    background-color: #362929;
     padding-top: 90px;
     padding-bottom: 45px;
     margin-bottom: 100px;
 }
 
+.screenshots-djsila {
+    background-color: #362929;
+}
+
+.screenshots-milov {
+    background-color: #FDE7E7;
+}
+
 .screenshot {
-    width: 950px;
+    max-width: 950px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 45px;
+}
+
+.screenshot-main-page-milov {
+    background-image: url(../img/screenshot-main-page-milov.svg);
+    height: 523px;
+}
+
+.screenshot-shop-page-milov {
+    background-image: url(../img/screenshot-shop-page-milov.png);
+    height: 601px;
+}
+
+.screenshot-menu-milov {
+    background-image: url(../img/screenshot-menu-milov.svg);
+    height: 729px;
+    max-width: 500px;
 }
 
 .screenshot1 {
@@ -203,17 +307,24 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url(../img/milov.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     transition: 0.6s;
+}
+
+.card-project__bg-milov {
+    background-image: url(../img/milov.jpg);
+}
+
+.card-project__bg-djsila {
+    background-image: url(../img/djsila.jpg);
 }
 
 .card-project:hover .card-project__bg {
     transform: scale(1.1);
 }
 
-.footer-experience {
+.footer {
     margin-top: 314px;
     background-color: #F0EDED;
 }
