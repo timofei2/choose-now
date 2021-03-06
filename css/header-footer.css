@@ -220,3 +220,44 @@ img{display: block;width:100%;max-width:100%;}
 .social-link:last-child {
     margin-bottom: 0;
 }
+
+.footer {
+    position: relative;
+    background: rgba(17, 16, 16, 0.95);
+}
+
+.footer-row {
+    padding: 26px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-font-awesome {
+    display: flex;
+}
+
+.icon-font-awesome__item {
+    font-size: 20px;
+    margin-right: 14px;
+    transition: 0.4s;
+    color: rgba(244, 67, 54, 0.5);
+}
+
+.icon-font-awesome__item:last-child {
+    margin-right: 0;
+}
+
+.icon-font-awesome__item:hover {
+    color: #F44336;
+}
+
+.copyter {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(244, 67, 54, 0.5);
+}

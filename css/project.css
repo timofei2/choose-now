@@ -258,7 +258,7 @@
     flex-direction: column;
     max-width: 362px;
     margin: auto;
-    transform: translateY(-40%);
+    transform: translateY(-35%);
 }
 
 .card-project__title {
@@ -325,6 +325,20 @@
 }
 
 .footer {
+    position: relative;
     margin-top: 314px;
-    background-color: #F0EDED;
+    background: rgba(17, 16, 16, 0.95);
+    height: 486px;
+}
+
+.container {
+    position: relative;
+}
+
+.footer-row {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 26px;
+    padding: 0 15px;
 }
